@@ -1,0 +1,9 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            { "useBuiltIns": "entry", "corejs": 3, "targets": ["last 2 versions", "not dead", "> 0.2%", "not ie 11"] }
+        ]
+    ],
+    "plugins": ["@babel/plugin-proposal-export-default-from", "@babel/plugin-proposal-object-rest-spread"]
+}
